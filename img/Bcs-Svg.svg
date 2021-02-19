@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- Created with Vectornator for iOS (http://vectornator.io/) --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" xmlns:vectornator="http://vectornator.io" version="1.1" viewBox="0 0 1080 1080">
+<metadata>
+<vectornator:setting key="DynamicGuides" value="1"/>
+<vectornator:setting key="Units" value="Points"/>
+<vectornator:setting key="GuidesVisible" value="1"/>
+<vectornator:setting key="GridSpacing" value="36"/>
+<vectornator:setting key="SnapToGuides" value="1"/>
+<vectornator:setting key="RulersVisible" value="1"/>
+</metadata>
+<defs/>
+<g id="Layer 1" vectornator:layerName="Layer 1">
+<path stroke="#ffffff" fill-rule="evenodd" stroke-width="10.75" d="M540+25.92L540+25.92C619.927+25.92+684.72+76.8971+684.72+139.781L684.72+696.055C684.72+758.938+619.927+809.915+540+809.915L540+809.915C460.073+809.915+395.28+758.938+395.28+696.055L395.28+139.781C395.28+76.8971+460.073+25.92+540+25.92Z" fill="#849ea3" stroke-linecap="butt" opacity="1" stroke-linejoin="miter"/>
+<path stroke="#ffffff" fill-rule="evenodd" stroke-width="10.75" d="M179.005+270.005L179.005+270.005C258.931+270.005+323.725+320.982+323.725+383.865L323.725+940.139C323.725+1003.02+258.931+1054+179.005+1054L179.005+1054C99.0782+1054+34.2848+1003.02+34.2848+940.139L34.2848+383.865C34.2848+320.982+99.0782+270.005+179.005+270.005Z" fill="#849ea3" stroke-linecap="butt" opacity="1" stroke-linejoin="miter"/>
+<path stroke="#ffffff" fill-rule="evenodd" stroke-width="10.75" d="M894.72+27.36L894.72+27.36C974.647+27.36+1039.44+92.1534+1039.44+172.08L1039.44+879.12C1039.44+959.047+974.647+1023.84+894.72+1023.84L894.72+1023.84C814.793+1023.84+750+959.047+750+879.12L750+172.08C750+92.1534+814.793+27.36+894.72+27.36Z" fill="#03dac6" stroke-linecap="butt" opacity="1" stroke-linejoin="miter"/>
+</g>
+</svg>
