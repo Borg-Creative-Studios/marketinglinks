@@ -1,69 +1,80 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
 <head>
-  <link rel="shortcut icon" href="./img/bcs-logo.PNG">
-
-  <!-- Compressed CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
-
-<!-- Compressed JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
-
-<!-- UIkit CSS -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- UIkit CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.1/dist/css/uikit.min.css" />
 
 <!-- UIkit JS -->
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.1/dist/js/uikit.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.1/dist/js/uikit-icons.min.js"></script>
 
-<meta http-equiv="refresh" content="5; url='https://author.borgcreative.com'" />
+
+
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setDoNotTrack", true]);
+  _paq.push(["disableCookies"]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.borgcreative.com/tracking/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '14']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+
+
+<meta http-equiv="refresh" content='5; url="https://author.borgcreative.com/?utm_source=mlink"' />
 
 <meta property="og:title" content="BCS Author">
-<meta property="og:description" content="An experimental browser based writing app">
-<meta property="og:image" content="https://author.borgcreative.com/author-img.jpg">
-<meta property="og:url" content="https://author.borgcreative.com/">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+<meta property="og:url" content="https://author.borgcreative.com/?utm_source=mlink">
 
 <meta property="twitter:title" content="BCS Author">
-<meta property="twitter:description" content="An experimental browser based writing app">
-<meta property="twitter:image" content="https://author.borgcreative.com/author-img.jpg">
-<meta property="twitter:url" content="https://author.borgcreative.com/">
+<meta property="twitter:description" content="">
+<meta property="twitter:image" content="">
+<meta property="twitter:url" content="https://author.borgcreative.com/?utm_source=mlink">
 
-  <meta charset="utf-8">
-  <title>Borg Creative Studios</title>
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCS mLink</title>
 </head>
-<header>
+<body onload='destination2()'>
 
+    <script src="./tags/mlink.js"></script>
+    
 
-
-</header>
-
-
-<body style="margin-top: 0px;">
-<div style="margin: 0px;">
-  <div name="header" class="uk-height-viewport uk-background-cover uk-light uk-flex" uk-parallax="bgy: +100; " style="background-image: url('img/bcs-cover.jpg');">
-
-      <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">
-
-        <center>
-        <h3><strong>You will be directed to the correct page in 5 seconds.</strong></h3>
-
-        <p>The ads on these page keep BCS Author free!</p>
-        <p>If you are not redirected in 5 seconds, click <a href="https://author.borgcreative.com">here</a>.</p>
-        <div name="promotional content">
-          <embed height="400px" src="https://source.borgcreative.com/bct/mk4-ad-pane-1.html"></embed><embed height="400px" src="https://source.borgcreative.com/bct/mk4-ad-pane-3.html"></embed></center>
-
-        
-
+    <div style="margin: 0px;">
+        <div name="header" class="uk-height-viewport uk-background-cover uk-light uk-flex" uk-parallax="bgy: +100; " style="background-image: url('img/bcs-cover.jpg');">
+      
+            <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">
+      
+              <center>
+                <div id="product1"></div>
+              <h3><strong>You will be directed to the correct page in 5 seconds.</strong></h3>
+      
+              <div id="content1"></div>
+              <p>If you are not redirected in 5 seconds, click <a id="destinationlink1" href="">here</a>.</p>
+              <div name="promotional content">
+                <embed id="ad1" height="400px" src=""></embed><embed id="ad2" height="400px" src=""></embed></center>
+      
+              
+      
+              </div>
+      
+            </div>
+      
         </div>
-
-      </div>
-
-  </div>
-
-
-
-
 
 </body>
 </html>

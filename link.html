@@ -1,5 +1,6 @@
 <html lang="en">
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- UIkit CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.1/dist/css/uikit.min.css" />
 
@@ -8,17 +9,35 @@
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.1/dist/js/uikit-icons.min.js"></script>
 
 
-<meta id="redirect1" http-equiv="refresh" content='' />
+<!-- Matomo -->
+<script>
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(["setDoNotTrack", true]);
+    _paq.push(["disableCookies"]);
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="https://analytics.borgcreative.com/tracking/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '14']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <!-- End Matomo Code -->
+
+<meta http-equiv="refresh" content='5; url="https://author.borgcreative.com/?utm_source=mlink"' />
 
 <meta property="og:title" content="">
 <meta property="og:description" content="">
 <meta property="og:image" content="">
-<meta property="og:url" content="">
+<meta property="og:url" content="?utm_source=mlink">
 
 <meta property="twitter:title" content="">
 <meta property="twitter:description" content="">
 <meta property="twitter:image" content="">
-<meta property="twitter:url" content="">
+<meta property="twitter:url" content="?utm_source=mlink">
 
 
 
@@ -29,7 +48,7 @@
 </head>
 <body onload='destination1()'>
 
-    <script src="https://mlink.borgcreative.com/tags/mlink.js"></script>
+    <script src="./tags/mlink.js"></script>
     
 
     <div style="margin: 0px;">
@@ -42,9 +61,9 @@
               <h3><strong>You will be directed to the correct page in 5 seconds.</strong></h3>
       
               <div id="content1"></div>
-              <p>If you are not redirected in 5 seconds, click <a id="destinationlink1" href="https://author.borgcreative.com">here</a>.</p>
+              <p>If you are not redirected in 5 seconds, click <a id="destinationlink1" href="">here</a>.</p>
               <div name="promotional content">
-                <embed height="400px" src="https://source.borgcreative.com/bct/mk4-ad-pane-1.html"></embed><embed height="400px" src="https://source.borgcreative.com/bct/mk4-ad-pane-3.html"></embed></center>
+                <embed id="ad1" height="400px" src=""></embed><embed id="ad2" height="400px" src=""></embed></center>
       
               
       
